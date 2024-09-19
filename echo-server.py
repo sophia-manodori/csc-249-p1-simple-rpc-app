@@ -21,3 +21,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             conn.sendall(data)
 
 print("server is done!")
+#use string.encode('UTF-8')

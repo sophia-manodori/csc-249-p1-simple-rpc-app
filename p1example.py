@@ -1,12 +1,3 @@
-#!/usr/bin/env python3
-# Simple server test client
-#
-# This simple client application can be used to test a server that is under development.
-# The application opens a connection to the server, then goes into a loop where it prompts
-# the user to provide a string message to be sent over to the server for processing. Then
-# the client waits for a reply and prints it. To exit and disconnect, the user can enter 'quit'
-# at the prompt.
-
 import socket
 
 HOST = "127.0.0.1"  # This is the loopback address
